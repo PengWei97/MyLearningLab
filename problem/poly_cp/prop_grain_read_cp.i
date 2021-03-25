@@ -172,6 +172,7 @@
     uo_slip_resistances = 'slip_resistance_gss'
     uo_state_vars = 'state_var_gss'
     uo_state_var_evol_rate_comps = 'state_var_evol_rate_comp_gss'
+    maximum_substep_iteration = 5 # add for an advice of jiangwen84
   [../]
   [./strain]
     type = ComputeFiniteStrain
