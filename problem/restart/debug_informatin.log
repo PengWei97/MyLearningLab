@@ -1,0 +1,234 @@
+(moose) xia@xia-virtual-machine:~/projects/kunpeng/test/tests/continue_simulation/restart_after_over_02$ gdb --args ~/projects/kunpeng/kunpeng-dbg -i poly_grain_growth_2D_eldrforce_restart.i
+GNU gdb (Ubuntu 9.2-0ubuntu1~20.04) 9.2
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from /home/xia/projects/kunpeng/kunpeng-dbg...
+(gdb) b MPI_Abort
+Function "MPI_Abort" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) y
+Breakpoint 1 (MPI_Abort) pending.
+(gdb) r
+Starting program: /home/xia/projects/kunpeng/kunpeng-dbg -i poly_grain_growth_2D_eldrforce_restart.i
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+[New Thread 0x7fffe4b71700 (LWP 787306)]
+[Thread 0x7fffe4b71700 (LWP 787306) exited]
+[New Thread 0x7fffe4b71700 (LWP 787307)]
+[New Thread 0x7fffe4b71700 (LWP 787308)]
+[Thread 0x7fffe4b71700 (LWP 787307) exited]
+[Thread 0x7fffe4b71700 (LWP 787308) exited]
+[New Thread 0x7fffe4b71700 (LWP 787309)]
+[Thread 0x7fffe4b71700 (LWP 787309) exited]
+[New Thread 0x7fffe4b71700 (LWP 787310)]
+[Thread 0x7fffe4b71700 (LWP 787310) exited]
+
+*** Info ***
+Using /home/xia/projects/kunpeng/test/tests/continue_simulation/restart_after_over_02/poly36_grtracker_cp/0010 for restart.
+[New Thread 0x7fffe4b71700 (LWP 787311)]
+[Thread 0x7fffe4b71700 (LWP 787311) exited]
+Inside the PolycrystalElasticDrivingForceAction Object
+var name base:gr[New Thread 0x7fffe4b71700 (LWP 787312)]
+[Thread 0x7fffe4b71700 (LWP 787312) exited]
+[New Thread 0x7fffe4b71700 (LWP 787313)]
+[Thread 0x7fffe4b71700 (LWP 787313) exited]
+[New Thread 0x7fffe4b71700 (LWP 787314)]
+[Thread 0x7fffe4b71700 (LWP 787314) exited]
+[New Thread 0x7fffe4b71700 (LWP 787315)]
+[Thread 0x7fffe4b71700 (LWP 787315) exited]
+[New Thread 0x7fffe4b71700 (LWP 787316)]
+[Thread 0x7fffe4b71700 (LWP 787316) exited]
+[New Thread 0x7fffe4b71700 (LWP 787317)]
+[Thread 0x7fffe4b71700 (LWP 787317) exited]
+[New Thread 0x7fffe4b71700 (LWP 787318)]
+[Thread 0x7fffe4b71700 (LWP 787318) exited]
+[New Thread 0x7fffe4b71700 (LWP 787319)]
+[Thread 0x7fffe4b71700 (LWP 787319) exited]
+[New Thread 0x7fffe4b71700 (LWP 787320)]
+[Thread 0x7fffe4b71700 (LWP 787320) exited]
+[New Thread 0x7fffe4b71700 (LWP 787321)]
+Initializing equation system ................                                              [ 17.40 s]
+[Thread 0x7fffe4b71700 (LWP 787321) exited]
+[New Thread 0x7fffe4b71700 (LWP 787322)]
+[Thread 0x7fffe4b71700 (LWP 787322) exited]
+[New Thread 0x7fffe4b71700 (LWP 787323)]
+[New Thread 0x7fffe4b71700 (LWP 787324)]
+[Thread 0x7fffe4b71700 (LWP 787323) exited]
+[Thread 0x7fffe4b71700 (LWP 787324) exited]
+[New Thread 0x7fffe4b71700 (LWP 787325)]
+[Thread 0x7fffe4b71700 (LWP 787325) exited]
+[New Thread 0x7fffe4b71700 (LWP 787326)]
+[Thread 0x7fffe4b71700 (LWP 787326) exited]
+[New Thread 0x7fffe4b71700 (LWP 787327)]
+[Thread 0x7fffe4b71700 (LWP 787327) exited]
+[New Thread 0x7fffe4b71700 (LWP 787328)]
+[Thread 0x7fffe4b71700 (LWP 787328) exited]
+[New Thread 0x7fffe4b71700 (LWP 787329)]
+[Thread 0x7fffe4b71700 (LWP 787329) exited]
+[New Thread 0x7fffe4b71700 (LWP 787330)]
+[Thread 0x7fffe4b71700 (LWP 787330) exited]
+[New Thread 0x7fffe4b71700 (LWP 787331)]
+Restarting from file ..........                                                            [ 11.53 s]
+[Thread 0x7fffe4b71700 (LWP 787331) exited]
+
+Framework Information:
+MOOSE Version:           git commit 59fb6b81d3 on 2021-03-23
+LibMesh Version:         
+PETSc Version:           3.14.2
+SLEPc Version:           3.14.0
+Current Time:            Fri Apr  2 01:24:11 2021
+Executable Timestamp:    Thu Apr  1 18:26:25 2021
+
+Parallelism:
+  Num Processors:          1
+  Num Threads:             1
+
+Mesh: 
+  Parallel Type:           replicated
+  Mesh Dimension:          2
+  Spatial Dimension:       2
+  Nodes:                   
+    Total:                 6561
+    Local:                 6561
+  Elems:                   
+    Total:                 6400
+    Local:                 6400
+  Num Subdomains:          1
+  Num Partitions:          1
+
+Nonlinear System:
+  Num DOFs:                65610
+  Num Local DOFs:          65610
+  Variables:               { "gr0" "gr1" "gr2" "gr3" "gr4" "gr5" "gr6" "gr7" "disp_x" "disp_y" } 
+  Finite Element Types:    "LAGRANGE" 
+  Approximation Orders:    "FIRST" 
+
+Auxiliary System:
+  Num DOFs:                57761
+  Num Local DOFs:          57761
+  Variables:               "bnds" { "elastic_strain11" "elastic_strain22" "elastic_strain12" "unique_grains" 
+                             "var_indices" "vonmises_stress" "C1111" "euler_angle" } 
+  Finite Element Types:    "LAGRANGE" "MONOMIAL" 
+  Approximation Orders:    "FIRST" "CONSTANT" 
+
+Execution Information:
+  Executioner:             Transient
+  TimeStepper:             IterationAdaptiveDT
+  Solver Mode:             Preconditioned JFNK
+  MOOSE Preconditioner:    SMP
+
+[New Thread 0x7fffe4b71700 (LWP 787333)]
+Computing Polycrystal Initial Condition                                                    [  1.04 s]
+[Thread 0x7fffe4b71700 (LWP 787333) exited]
+[New Thread 0x7fffe4b71700 (LWP 787334)]
+
+*** Info ***
+/home/xia/projects/kunpeng/test/tests/continue_simulation/restart_after_over_02/poly_grain_growth_2D_eldrforce_restart.i:40: (UserObjects/voronoi/coloring_algorithm):
+    The backtracking algorithm has exponential complexity. If you are using very few order parameters,
+    or you have several hundred grains or more, you should use one of the PETSc coloring algorithms such as "jp".
+[Thread 0x7fffe4b71700 (LWP 787334) exited]
+[New Thread 0x7fffe4b71700 (LWP 787335)]
+Projecting initial condition ..................................                            [ 35.73 s]
+[Thread 0x7fffe4b71700 (LWP 787335) exited]
+[New Thread 0x7fffe4b71700 (LWP 787336)]
+Computing initial stateful property values .                                               [  2.69 s]
+[Thread 0x7fffe4b71700 (LWP 787336) exited]
+[New Thread 0x7fffe4b71700 (LWP 787337)]
+Initial adaptivity step 1 of 2 ...........................................................
+..........................................................................................
+..........................................................................................
+.......................................................                                    [295.81 s]
+[Thread 0x7fffe4b71700 (LWP 787337) exited]
+[New Thread 0x7fffe4b71700 (LWP 787341)]
+Initial adaptivity step 2 of 2 ...........................................................
+..........................................................................................
+..........................................................................................
+..........................                                                                 [266.18 s]
+[Thread 0x7fffe4b71700 (LWP 787341) exited]
+[New Thread 0x7fffe4b71700 (LWP 787838)]
+[Thread 0x7fffe4b71700 (LWP 787838) exited]
+[New Thread 0x7fffe4b71700 (LWP 787839)]
+[Thread 0x7fffe4b71700 (LWP 787839) exited]
+[New Thread 0x7fffe4b71700 (LWP 787840)]
+[Thread 0x7fffe4b71700 (LWP 787840) exited]
+[New Thread 0x7fffe4b71700 (LWP 787841)]
+[New Thread 0x7fffe4b71700 (LWP 787842)]
+[Thread 0x7fffe4b71700 (LWP 787841) exited]
+[Thread 0x7fffe4b71700 (LWP 787842) exited]
+[New Thread 0x7fffe4b71700 (LWP 787843)]
+[Thread 0x7fffe4b71700 (LWP 787843) exited]
+[New Thread 0x7fffe4b71700 (LWP 787844)]
+[Thread 0x7fffe4b71700 (LWP 787844) exited]
+[New Thread 0x7fffe4b71700 (LWP 787845)]
+Reprojecting initial conditions after restoring restart data .............................
+....................................................................................       [115.01 s]
+[Thread 0x7fffe4b71700 (LWP 787845) exited]
+[New Thread 0x7fffe4b71700 (LWP 787846)]
+Computing Polycrystal Initial Condition ..                                                 [  3.15 s]
+[Thread 0x7fffe4b71700 (LWP 787846) exited]
+[New Thread 0x7fffe4b71700 (LWP 787847)]
+[Thread 0x7fffe4b71700 (LWP 787847) exited]
+[New Thread 0x7fffe4b71700 (LWP 787848)]
+Flooding Features ........................................................................
+..                                                                                         [ 75.66 s]
+[Thread 0x7fffe4b71700 (LWP 787848) exited]
+
+rain Tracker Status:
+Grains active index 0: 5 -> 5
+Grains active index 1: 5 -> 5
+Grains active index 2: 7 -> 7
+Grains active index 3: 4 -> 4
+Grains active index 4: 5 -> 5
+Grains active index 5: 3 -> 3
+Grains active index 6: 4 -> 4
+Grains active index 7: 3 -> 3
+
+Finished inside of GrainTracker
+
+
+
+Assertion `grain_id < _grain_data.size()' failed
+Requested data for invalid grain index.
+at /home/xia/projects/moose/modules/phase_field/build/header_symlinks/GrainDataTracker.h, line 46
+Stack frames: 22
+0: libMesh::print_trace(std::ostream&)
+1: GrainDataTracker<RankFourTensorTempl<double> >::getData(unsigned int) const
+2: ComputePolycrystalElasticityTensor::computeQpElasticityTensor()
+3: ComputeElasticityTensorBaseTempl<false>::computeQpProperties()
+4: Material::computeProperties()
+5: MaterialData::reinit(std::__debug::vector<std::shared_ptr<MaterialBase>, std::allocator<std::shared_ptr<MaterialBase> > > const&, bool)
+6: FEProblemBase::reinitMaterials(unsigned short, unsigned int, bool)
+7: ComputeElemAuxVarsThread<AuxKernelTempl<double> >::onElement(libMesh::Elem const*)
+8: ThreadedElementLoopBase<libMesh::StoredRange<libMesh::MeshBase::const_element_iterator, libMesh::Elem const*> >::operator()(libMesh::StoredRange<libMesh::MeshBase::const_element_iterator, libMesh::Elem const*> const&, bool)
+9: /home/xia/projects/moose/framework/libmoose-dbg.so.0(+0x3a94a34) [0x7ffff5d99a34]
+10: void AuxiliarySystem::computeElementalVarsHelper<AuxKernelTempl<double> >(MooseObjectWarehouse<AuxKernelTempl<double> > const&, std::__debug::vector<std::__debug::vector<MooseVariableFieldBase*, std::allocator<MooseVariableFieldBase*> >, std::allocator<std::__debug::vector<MooseVariableFieldBase*, std::allocator<MooseVariableFieldBase*> > > > const&, unsigned int)
+11: AuxiliarySystem::computeElementalVars(MooseEnumItem)
+12: AuxiliarySystem::compute(MooseEnumItem)
+13: FEProblemBase::computeAuxiliaryKernels(MooseEnumItem const&)
+14: FEProblemBase::execute(MooseEnumItem const&)
+15: FEProblemBase::initialSetup()
+16: Transient::init()
+17: MooseApp::executeExecutioner()
+18: MooseApp::run()
+19: /home/xia/projects/kunpeng/kunpeng-dbg(+0x1434b) [0x55555556834b]
+20: __libc_start_main
+21: /home/xia/projects/kunpeng/kunpeng-dbg(+0x13189) [0x555555567189]
+[0] /home/xia/projects/moose/modules/phase_field/build/header_symlinks/GrainDataTracker.h, line 46, compiled Apr  1 2021 at 18:24:43
+--Type <RET> for more, q to quit, c to continue without paging--
+
+
+
+
+
