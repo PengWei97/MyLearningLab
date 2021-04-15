@@ -97,14 +97,14 @@
   [../]
   [./euler2]
     type = MaterialRealVectorValueAux
-    variable = euler1
+    variable = euler2
     property = Euler_angles
     component = 1
     execute_on = timestep_end
   [../]
   [./euler3]
     type = MaterialRealVectorValueAux
-    variable = euler1
+    variable = euler3
     property = Euler_angles
     component = 2
     execute_on = timestep_end
