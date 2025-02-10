@@ -1,6 +1,38 @@
-monkey
-=====
+# MyLearningLab
 
-"Fork monkey" to create a new MOOSE-based application.
+欢迎来到 **MyLearningLab**，这是一个个人学习笔记仓库，用于记录我在多个领域的学习进程。仓库的主要目的是整理、收集并分享与技能、理论及课外阅读相关的知识。
 
-For more information see: [http://mooseframework.org/create-an-app/](http://mooseframework.org/create-an-app/)
+## 内容结构
+
+### 1. **技能知识**
+此部分包括与编程和技术技能相关的学习笔记：
+- [Paraview](skills/Paraview.md)
+- [MetX](skills/MTEX.md)
+- [MOOSE](skills/MOOSE.md)
+- [C++](skills/C++.md)
+- [Python](skills/Python.md)
+
+### 2. **理论知识**
+此部分包含与材料科学及有限元方法相关的理论知识：
+- [晶界](theories/GB-Rex-GG.md)
+- [有限元方法 (FEM)](theories/FEM.md)
+
+### 3. **课外阅读**
+此部分记录我在其他领域的阅读笔记，包括金融、健康、历史、经济政治等：
+- [金融理财](课外阅读/金融理财.md)
+- [健康养生](课外阅读/健康养生.md)
+- [历史地理](课外阅读/历史地理.md)
+- [经济政治](课外阅读/经济政治.md)
+- [方法论](课外阅读/方法论.md)
+
+### 4. **资源**
+此部分包含我在学习过程中发现的有用链接和资源：
+- [有用链接](resources/UsefulLinks.md)
+
+## 如何使用本仓库
+
+你可以根据目录结构导航到你感兴趣的内容，每个文件都组织成简洁的笔记形式，并尽可能提供相关的资源和参考文献。
+
+## 贡献
+
+欢迎提出任何建议或改进，尽管这个仓库主要是我个人的学习记录，但如果你有任何反馈或想法，随时欢迎交流！
