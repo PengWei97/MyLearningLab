@@ -14,7 +14,7 @@
 
 ### 2. **理论知识**
 此部分包含与材料科学及有限元方法相关的理论知识：
-- [晶界](theories/GB-Rex-GG.md)
+- [晶界-再结晶-晶粒长大](theories/GB-Rex-GG.md)
 - [有限元方法 (FEM)](theories/FEM.md)
 
 ### 3. **课外阅读**
